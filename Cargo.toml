@@ -1,6 +1,10 @@
 [package]
 name = "kioku"
+description = "kioku"
 version = "0.1.0"
+authors = ["kyohenoki"]
 edition = "2024"
+license = "MIT"
+repository = "https://github.com/kyohenoki/kioku"
 
 [dependencies]
