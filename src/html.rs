@@ -4,6 +4,10 @@ use std::error::Error;
 use std::fs::File;
 use std::io::Write;
 
+// target/debug/kioqu html [url] [path/filename]
+// target/debug/kioqu html https://archlinux.org back/index.html
+// default https://example.com back/[timestamp].html
+
 pub async fn html() {
     if let Err(e) = iine().await {
         eprintln!("{}", e);
@@ -27,7 +31,7 @@ fn aru(nu: usize) -> String {
     if let Some(u) = args.get(nu) {
         u.clone()
     } else if nu == 2 {
-        "https://github.com/seanmonstar/reqwest".to_string()
+        "https://example.com".to_string()
     } else if nu == 3 {
         let now = Local::now().timestamp_millis();
         format!("back/{}.html", now)
