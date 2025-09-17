@@ -1,10 +1,10 @@
 [package]
-name = "kioku"
-description = "kioku"
+name = "kioqu"
+description = "kioqu"
 version = "0.1.0"
 authors = ["kyohenoki"]
 edition = "2024"
 license = "MIT"
-repository = "https://github.com/kyohenoki/kioku"
+repository = "https://github.com/kyohenoki/kioqu"
 
 [dependencies]

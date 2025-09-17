@@ -1,3 +1,3 @@
 fn main() {
-    println!("kioku");
+    println!("kioqu");
 }
