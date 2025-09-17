@@ -8,3 +8,6 @@ license = "MIT"
 repository = "https://github.com/kyohenoki/kioqu"
 
 [dependencies]
+reqwest = { version = "0.12.23" }
+scraper = { version = "0.24.0" }
+tokio = { version = "1.47.1", features = ["full"] }
